@@ -5,9 +5,9 @@ hostname
 
 Alterar hostname
 ```shell
-hostnamectl set-hostname fedora.home.afp
+hostnamectl set-hostname fedorasrv.home.afp
 
-hostnamectl set-hostname ol.home.afp
+hostnamectl set-hostname olsrv.home.afp
 ```
 
 Verificar hostname
@@ -17,11 +17,11 @@ hostname
 
 Adicionar hostname ao arquivo hosts
 ```shell
-echo "127.0.0.1 fedora fedora.home.afp" >> /etc/hosts
-echo "10.0.12.11 fedora fedora.home.afp" >> /etc/hosts
+echo "127.0.0.1 fedorasrv fedorasrv.home.afp" >> /etc/hosts
+echo "10.0.12.11 fedorasrv fedorasrv.home.afp" >> /etc/hosts
 
-echo "127.0.0.1 ol ol.home.afp" >> /etc/hosts
-echo "10.0.11.11 toth toth.home.afp" >> /etc/hosts
+echo "127.0.0.1 olsrv olsrv.home.afp" >> /etc/hosts
+echo "10.0.11.11 olsrv olsrv.home.afp" >> /etc/hosts
 ```
 
 Preservar alteração
