@@ -1,4 +1,4 @@
-```powershell-interactive
+```powershell
 get-netConnectionProfile
 
 set-netConnectionProfile -InterfaceIndex 12 -NetworkCategory Private
