@@ -38,3 +38,5 @@ id
 ```bash
 sudo yum update -y
 ```
+
+[Microsoft](https://learn.microsoft.com/pt-br/entra/identity/domain-services/join-rhel-linux-vm?tabs=rhel7)
